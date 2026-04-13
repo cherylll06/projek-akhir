@@ -1,0 +1,1406 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.utama{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kiri{
+    width: 18%;
+    height: 100vh;
+    background-color: rgb(0, 9, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.bks-kiri{
+    width: 80%;
+    height: 95vh;
+}
+.profil{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    width: 63%;
+    height: 17vh;
+    border-radius: 50%;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bulat{
+    width: 90%;
+    height: 15.5vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bulat img{
+    width: 100%;
+    height: 15.5vh;
+    border-radius: 50%;
+}
+.logo{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+.back{
+    width: 14%;
+    height: 4vh;
+    border-radius: 50%;
+    background-color: rgb(100, 100, 100);
+}
+.name{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.nama{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.nama span{
+    color: white;
+    font-size: 15px;
+}
+.nama img{
+    width: 15px;
+}
+.name img{
+    width: 15px;
+}
+.name span{
+    color: gray;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.gambar img{
+    width: 15px;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+.kanan{
+    width: 85%;
+    height: 100vh;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.pic img{
+    width: 100%;
+    height: 100vh;
+}
+.pagedua{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks{
+    width: 85%;
+    height: 90vh;
+}
+.about{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.garis{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+.bks-garis{
+    width: 4%;
+    height: 0.5vh;
+    background-color: rgb(99, 99, 255);
+}
+.text{
+    width: 100%;
+    height: 13vh;
+}
+.bungkus{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: space-between;
+}
+.foto{
+    width: 30%;
+    height: 45vh;
+}
+.foto img{
+    width: 110%;
+    height: 43vh;
+}
+.smw{
+    width: 60%;
+    height: 40vh;
+}
+.ui{
+    width: 100%;
+    height: 5vh;
+}
+.lorem{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+.birth{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: start;
+    gap: 10%;
+}
+.isi{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.isi p{
+    color: blue;
+}
+.isi span{
+    color: black;
+}
+.ket{
+    width: 100%;
+    height: 8vh;
+}
+.smile{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.isoy{
+    width: 20%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.biru{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+.emot{
+    width: 20%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 17px;
+}
+.emot img{
+    width: 27px;
+}
+.tulis{
+    width: 90%;
+    height: 15vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.skills{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(237, 247, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-skills{
+    width: 85%;
+    height: 40vh;
+}
+.teks{
+    width: 100%;
+    height: 10vh;
+}
+.persentase{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bag-kiri,.bag-kanan{
+    width: 48%;
+    height: 20vh;
+}
+.besar{
+    width: 100%;
+    height: 6vh;
+}
+.ket{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.blue{
+    width: 100%;
+    height: 2vh;
+    background-color: rgb(0, 115, 247);
+}
+.bluewan{
+    width: 100%;
+    height: 2vh;
+    background-color: gainsboro;
+}
+.lapissatu{
+    width: 40%;
+    height: 2vh;
+    background-color: rgb(0, 115, 247);
+}
+.lapisdua{
+    width: 80%;
+    height: 2vh;
+    background-color: rgb(0, 115, 247);
+}
+.lapistiga{
+    width: 90%;
+    height: 2vh;
+    background-color: rgb(0, 115, 247);
+}
+.resume{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-resume{
+    width: 85%;
+    height: 125vh;
+}
+.teks{
+    width: 100%;
+    height: 10vh;
+}
+.bungkus-ya{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Kiri{
+    width: 50%;
+    height: 105vh;
+}
+.box{
+    width: 100%;
+    height: 35vh;
+}
+.sumary{
+    width: 100%;
+    height: 5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.bungkus-gaiss{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.pinggir{
+    width: 3.5%;
+    height: 22vh;
+}
+.top{
+    width: 100%;
+    height: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 100%;
+    height: 1.5vh;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 115, 247);
+}
+.bottom{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 0.5%;
+    height: 25vh;
+    border: 1.5px solid rgb(0, 115, 247);
+    background-color: rgb(0, 115, 247);
+}
+.isiii{
+    width: 90%;
+    height: 33vh;
+}
+.namo{
+    width: 100%;
+    height: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.penjelasan{
+    width: 100%;
+    height: 13vh;
+    font-size: 16px;
+}
+.asal{
+    width: 100%;
+    height: 4vh;
+}
+.nomor{
+    width: 100%;
+    height: 3vh;
+}
+.email{
+    width: 100%;
+    height: 3vh;
+}
+.penjelasann{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+.isisi{
+    width: 100%;
+    height: 3vh;
+}
+.pinggirr{
+    width: 3.5%;
+    height: 30vh;
+}
+.bottomm{
+    width: 100%;
+    height: 26vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linee{
+    width: 0.5%;
+    height: 26vh;
+    border: 1.5px solid rgb(0, 115, 247);
+    background-color: rgb(0, 115, 247);
+}
+.bottommmmmm{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lineeeeee{
+    width: 0.5%;
+    height: 30vh;
+    border: 1.5px solid rgb(0, 115, 247);
+    background-color: rgb(0, 115, 247);
+}
+.bottommmm{
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lineeee{
+    width: 0.5%;
+    height: 33vh;
+    border: 1.5px solid rgb(0, 115, 247);
+    background-color: rgb(0, 115, 247);
+}
+.bungkus-gaisss{
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.bungkus-gaisssss{
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.isiiii{
+    width: 93%;
+    height: 15vh;
+}
+.boxx{
+    width: 100%;
+    height: 65vh;
+}
+.Kanan{
+    width: 50%;
+    height: 105vh;
+}
+.boxguys{
+    width: 100%;
+    height: 100vh;
+}
+.taun{
+    width: 100%;
+    height: 4vh;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.asall{
+    width: 100%;
+    height: 4vh;
+    font-size: 16px;
+}
+.penjelasannn{
+    width: 100%;
+    height: 12vh;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line-panjang{
+    width: 0.5%;
+    height: 30.5vh;
+    border: 1.5px solid rgb(0, 115, 247);
+    background-color: rgb(0, 115, 247);
+}
+.isiii{
+    width: 100%;
+    height: 30vh;
+}
+.bottommm{
+    width: 100%;
+    height: 30.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottommmm{
+    width: 100%;
+    height: 38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-panjangg{
+    width: 0.5%;
+    height: 38vh;
+    border: 1.5px solid rgb(0, 115, 247);
+    background-color: rgb(0, 115, 247);
+}
+.nomorr{
+    width: 100%;
+    height: 3vh;
+}
+.bungkus-gusy{
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.penjelasannnnn{
+    width: 100%;
+    height: 25vh;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.circlee{
+    width: 100%;
+    height: 1.5vh;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 115, 247);
+}
+.portofolio{
+    width: 100%;
+    height: 200vh;
+    background-color: rgb(237, 247, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-portofolio{
+    width: 85%;
+    height: 200vh;
+}
+.app{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bks-yh-ats,.bks-yh-tgh,.bks-yh-bwh{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bkssmw{
+    width: 100%;
+    height: 173vh;
+}
+.one{
+    width: 30%;
+    height: 20vh;
+}
+.one img{
+    width: 100%;
+    height: 20vh;
+}
+.service{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-service{
+    width: 85%;
+    height: 60vh;
+}
+.bkss{
+    width: 100%;
+    height: 40vh;
+}
+.ats{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.isoyy{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lingkaran{
+    width: 17%;
+    height: 20vh;
+}
+.bks-lingkaran{
+    width: 100%;
+    height: 7.5vh;
+    background-color: rgb(0, 115, 247);
+    border-radius: 50%;
+}
+.knn{
+    width: 70%;
+    height: 15vh;
+}
+.jdl{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.txt{
+    width: 100%;
+    height: 12vh;
+    font-size: 13px;
+}
+.bwh{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testi{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 242, 253);
+}
+.bks-testi{
+    width: 85%;
+    height: 50vh;
+}
+.testimonials{
+    width: 100%;
+    height: 25vh;
+    overflow-x: scroll;
+    display: flex;
+    gap: 50px;
+}
+.isi-testi{
+    width: 100%;
+    height: 25vh;
+}
+.atss{
+    width: 100%;
+    height: 13vh;
+}
+.segi{
+    width: 250px;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 5px 2px rgb(154, 154, 154);
+}
+.bks-segi{
+    width: 90%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-segi p{
+    font-family: sans-serif;
+}
+.segitiga{
+    width: 100%;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-segitiga{
+    width: 0%;
+    height: 0vh;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid white;
+}
+.bwhh{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 24%;
+    height: 9vh;
+    border-radius: 50%;
+    background-color: rgb(0, 115, 247);
+}
+.contact{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-contact{
+    width: 85%;
+    height: 85vh;
+}
+.bks-isi{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address{
+    width: 40%;
+    height: 65vh;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px grey;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-address{
+    width: 90%;
+    height: 60vh;
+}
+.isinyaygy{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blt{
+    width: 20%;
+    height: 8vh;
+}
+.isi-blt{
+    width: 79%;
+    height: 7.5vh;
+    background-color: rgb(161, 205, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.isi-blt img{
+    width: 22px;
+}
+.kann{
+    width: 80%;
+    height: 8vh;
+}
+.jdul{
+    width: 100%;
+    height: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ket{
+    width: 100%;
+    height: 4vh;
+}
+.maps{
+    width: 100%;
+    height: 28vh;
+}
+.maps iframe{
+    width: 100%;
+    height: 28vh;
+}
+.submit{
+    width: 55%;
+    height: 65vh;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px grey;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-submit{
+    width: 90%;
+    height: 60vh;
+}
+.your-name{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.is{
+    width: 48%;
+    height: 10vh;
+}
+.your{
+    width: 100%;
+    height: 3vh;
+}
+.input{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input input{
+    width: 100%;
+    height: 4vh;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 0px;
+}
+.subject{
+    width: 100%;
+    height: 10vh;
+}
+.sub{
+    width: 100%;
+    height: 3vh;
+}
+.ipt{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ipt input{
+    width: 100%;
+    height: 4vh;
+    border-radius: 0px;
+    border: 1px solid black;
+}
+.Message{
+    width: 100%;
+    height: 30vh;
+}
+.sage{
+    width: 100%;
+    height: 3vh;
+}
+.textarea{
+    width: 100%;
+    height: 26vh;
+}
+.textarea textarea{
+    width: 100%;
+    height: 26vh;
+    border-radius: 0px;
+}
+.send{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-send{
+    width: 30%;
+    height: 5vh;
+    background-color: rgb(0, 115, 247);
+    font-size: 15px;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.copyright{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-copyright{
+    width: 30%;
+    height: 8vh;
+}
+.atass{
+    width: 100%;
+    height: 3vh;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.atass span{
+    font-weight: bold;
+}
+.bawahh{
+    width: 100%;
+    height: 3vh;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bawahh span{
+    color: blue;
+}
+
+
+
+
+
+
+
+@media(max-width:667px){
+    .utama{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .name{
+        flex-wrap: wrap;
+    }
+    .kiri{
+        width: 100%;
+        height: 20vh;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        overflow-x: scroll;
+    }
+    .bks-kiri{
+        height: 18vh;
+    }
+    .logo{
+        width: 65%;
+        margin-left: 50px;
+    }
+    .gambar{
+        width: 5%;
+    }
+    .profil{
+        width: 60%;
+        margin-left: 60px;
+    }
+    .kanan{
+        width: 100%;
+    }
+    .pic img{
+        width: 100%;
+        height: 40vh;
+    }
+    .pagedua{
+        width: 100%;
+        height: 130vh;
+    }
+    .bks{
+        width: 80%;
+        height: 120vh;
+    }
+    .about{
+        width: 100%;
+    }
+    .bks-garis{
+        width: 15%;
+    }
+    .text{
+        width: 100%;
+        height: 13vh;
+        font-size: 12px;
+    }
+    .bungkus{
+        width: 100%;
+        height: 70vh;
+        flex-wrap: wrap;
+    }
+    .foto{
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foto img{
+        width: 50%;
+        height: 22vh;
+    }
+    .text{
+        width: 100%;
+        height: 10vh;
+    }
+    .isi{
+        width: 100%;
+    }
+    .birth{
+        width: 100%;
+        height: 40vh;
+        flex-wrap: wrap;
+    }
+    .kirii{
+        width: 100%;
+        height: 17vh;
+    }
+    .kanann{
+        width: 100%;
+        margin-top: -30px;
+    }
+    .smw{
+        width: 100%;
+        height: 75vh;
+        flex-wrap: wrap;
+    }
+    .lorem{
+        width: 100%;
+        height: 5vh;
+        font-size: 14px;
+        margin-top: -35px;
+    }
+    .kett{
+        width: 100%;
+        height: 15vh;
+        font-size: 14px;
+    }
+    .smile{
+        width: 100%;
+        height: 15vh;
+        overflow-y: scroll;
+        margin-top: 100px;
+    }
+    .isoy{
+        width: 100%;
+        overflow-y: scroll;
+    }
+    .emot{
+        width: 40%;
+    }
+    .tulis{
+        width: 70%;
+    }
+    .tulis h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .tulis p{
+        font-size: 12px;
+    }
+    .biru{
+        width: 100%;
+        height: 8vh;
+    }
+    .teks{
+        width: 100%;
+        height: 10vh;
+        font-size: 14px;
+    }
+    .skills{
+        width: 100%;
+        height: 50vh;
+    }
+    .besar{
+        width: 100%;
+        height: 7vh;
+    }
+    .ket{
+        height: 3vh;
+        width: 100%;
+    }
+    .top{
+        width: 100%;
+        height: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle{
+        width: 50%;
+        height: 2vh;
+        border-radius: 50%;
+        border: 2px solid rgb(0, 115, 247);
+    }
+    .bottom{
+        width: 100%;
+        height: 30vh;
+    }
+    .line{
+        width: 2%;
+        height: 30vh;
+        background-color: rgb(0, 115, 247);
+    }
+    .sumary{
+        width: 100%;
+        height: 5vh;
+    }
+    .pinggir{
+        width: 10%;
+        height: 23vh;
+        border: 2px solid black;
+    }
+    .box{
+        width: 100%;
+        height: 40vh;
+    }
+    .isiii{
+        width: 85%;
+        height: 32vh;
+    }
+    .namo{
+        font-size: 20px;
+        height: 4vh;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .penjelasan{
+        width: 100%;
+        height: 17vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13.5px;
+    }
+    .asal{
+        font-size: 17px;
+        width: 100%;
+        height: 3vh;
+    }
+    .nomor{
+        font-size: 17px;
+        height: 3vh;
+    }
+    .email{
+        font-size: 17px;
+        height: 3vh;
+    }
+    .boxx{
+        width: 100%;
+        height: 50vh;
+    }
+    .isisi{
+        width: 100%;
+        height: 20vh;
+        font-size: 15px;
+        flex-wrap: wrap;
+
+    }
+    .isiiii{
+        width: 87%;
+        height: 25vh;
+        
+    }
+    .bungkus-gaisss{
+        height: 35vh;
+    }
+    .pinggirr{
+        width: 10%;
+        height: 25vh;
+    }
+    .bottomm{
+        width: 100%;
+        height: 32vh;
+    }
+    .linee{
+        height: 32vh;
+    }
+    .bungkus-gusy{
+        height: 44vh;
+    }
+    .circlee{
+        width: 50%;
+        height: 2vh;
+        border-radius: 50%;
+        border: 2px solid rgb(0, 115, 247);
+    }
+    .bks-yh{
+        width: 100%;
+        height: 100vh;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .one{
+        width: 80%;
+        height: 20vh;
+    }
+    .service{
+        height: 70vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bks-service{
+        width: 80%;
+        height: 70vh;
+    }
+    .bkss{
+        width: 100%;
+        height: 43vh;
+        overflow-y: scroll;
+    }
+    .ats{
+        width: 100%;
+        height: 20vh;
+        flex-wrap: wrap;
+    }
+    .isoyy{
+        width: 100%;
+        height: 20vh;
+    }
+    .bwh{
+        width: 100%;
+        height: 20vh;
+        flex-wrap: wrap;
+    }
+    .contact{
+        width: 100%;
+        height: 160vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bks-contact{
+        width: 90%;
+        height: 155vh;
+    }
+    .bks-isi{
+        width: 100%;
+        height: 100vh;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .address{
+        width: 100%;
+        height: 60vh;
+        margin-bottom: 60px;
+    }
+    .submit{
+        width: 100%;
+    }
+    .bks-send{
+        width: 60%;
+    }
+    .copyright{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bks-copyright{
+        width: 100%;
+        height: 8vh;
+    }
+    .atass{
+        width: 100%;
+        height: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .portofolio{
+        width: 100%;
+        height: 250vh;
+    }
+    .bks-yh-ats,.bks-yh-tgh,.bks-yh-bwh{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+.resume{
+    width: 100%;
+    height: 255vh;
+}
+.bks-resume{
+    width: 80%;
+    height: 250vh;
+}
+.box{
+    width: 100%;
+}
+.bungkus-ya{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Kiri{
+    width: 100%;
+    height: 125vh;
+}
+.bungkus-gaisssss{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.bottommmm{
+    height: 35vh;
+}
+.lineeee{
+    height: 35vh;
+}
+.Kanan{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.penjelasannn{
+    width: 100%;
+    height: 22vh;
+}
+.penjelasannnnn{
+    width: 100%;
+    height: 35vh;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bottommmm{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-panjangg{
+    width: 0.5%;
+    height: 45vh;
+    border: 1.5px solid rgb(0, 115, 247);
+    background-color: rgb(0, 115, 247);
+}
+.bottommm{
+    width: 100%;
+    height: 41vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-panjang{
+    width: 0.5%;
+    height: 41vh;
+    border: 1.5px solid rgb(0, 115, 247);
+    background-color: rgb(0, 115, 247);
+}
+.bottommmmmm{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lineeeeee{
+    width: 0.5%;
+    height: 35vh;
+    border: 1.5px solid rgb(0, 115, 247);
+    background-color: rgb(0, 115, 247);
+}
+}
